@@ -6,7 +6,7 @@ The application allows tracking of books, borrowed records, and overdue fines us
 
 ---
 
-## 📌 Features
+## Features
 - Store and manage books in a **SQLite relational database**
 - Track borrowed books and student borrowing records
 - Automatically calculate **overdue fines** based on return dates
@@ -16,7 +16,7 @@ The application allows tracking of books, borrowed records, and overdue fines us
 
 ---
 
-## 🗄️ Database Design
+## Database Design
 
 The system uses two main tables:
 
@@ -41,7 +41,7 @@ The tables are linked using a **foreign key relationship** between `Borrowed_boo
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Python**
 - **SQL**
 - **SQLite**
@@ -50,7 +50,7 @@ The tables are linked using a **foreign key relationship** between `Borrowed_boo
 
 ---
 
-## 🚀 How It Works
+## How It Works
 1. Books are stored in a SQLite database with available quantities.
 2. When a student borrows a book:
    - A record is added to the `Borrowed_books` table
@@ -66,12 +66,12 @@ The tables are linked using a **foreign key relationship** between `Borrowed_boo
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 ![main_ui.png](screenshots/main_ui.png)
 
 ---
 
-## 🎯 Purpose of the Project
+## Purpose of the Project
 This project was created as a **learning-focused exercise** to:
 - Practice **SQL querying and relational database design**
 - Integrate **Python with a SQL database**
@@ -80,7 +80,7 @@ This project was created as a **learning-focused exercise** to:
 
 ---
 
-## 🔧 Future Improvements
+## Future Improvements
 - User authentication
 - Book reservation system
 - Export borrowing data for analysis
@@ -93,3 +93,4 @@ This project is for educational purposes.
 #   L i b r a r y - M a n a g e m e n t - S y s t e m 
  
  
+
