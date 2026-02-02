@@ -25,6 +25,7 @@ def main():
 def create_existing_books():
     conn = sqlite3.connect('../data/library.db')
     c = conn.cursor()
+# creates books that goes into the database
     c.execute('''INSERT OR IGNORE INTO Books (id, title, quantity) VALUES (
     NULL, 'Learn Python', 0)''')
     c.execute('''INSERT INTO Books (id, title, quantity) VALUES (
